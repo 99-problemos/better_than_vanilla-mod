@@ -1,4 +1,5 @@
 package net._99problemos;
+import net._99problemos.custom.OreProspectingPick;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -11,6 +12,7 @@ import net.minecraft.util.Identifier;
 public class ModItems {
     public static final Item RUBY = registerItem("ruby", new Item(new FabricItemSettings()));
     public static final Item UNREFINED_RUBY = registerItem("unrefined_ruby", new Item(new FabricItemSettings()));
+    public static final Item ORE_PROSPECTING_PICK = registerItem("ore_prospecting_pick", new OreProspectingPick(new FabricItemSettings().maxDamage(4096)));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(RUBY);

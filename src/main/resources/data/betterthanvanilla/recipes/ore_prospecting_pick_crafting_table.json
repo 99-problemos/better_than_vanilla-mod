@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "minecraft:gold_ingot"
+    },
+    "Y": {
+      "item": "minecraft:cobblestone"
+    },
+    "Z": {
+      "item": "minecraft:iron_ingot"
+    },
+    "A": {
+      "item": "minecraft:diamond"
+    },
+    "B": {
+      "item": "minecraft:netherite_ingot"
+    }
+  },
+  "pattern": [
+    "XYZ",
+    "A#B",
+    " # "
+  ],
+  "result": {
+    "item": "betterthanvanilla:ore_prospecting_pick"
+  },
+  "show_notification": true
+}
