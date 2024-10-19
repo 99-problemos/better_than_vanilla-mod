@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "better_than_vanilla:block/unrefined_ruby_block"
+  }
+}
