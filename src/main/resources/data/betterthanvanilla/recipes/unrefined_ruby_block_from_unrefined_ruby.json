@@ -3,7 +3,7 @@
   "category": "building",
   "key": {
     "#": {
-      "item": "better_than_vanilla:unrefined_ruby"
+      "item": "betterthanvanilla:unrefined_ruby"
     }
   },
   "pattern": [
@@ -12,7 +12,7 @@
     "###"
   ],
   "result": {
-    "item": "better_than_vanilla:unrefined_ruby_block"
+    "item": "betterthanvanilla:unrefined_ruby_block"
   },
   "show_notification": true
 }

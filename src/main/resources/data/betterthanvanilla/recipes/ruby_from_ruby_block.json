@@ -3,11 +3,11 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "better_than_vanilla:ruby_block"
+      "item": "betterthanvanilla:ruby_block"
     }
   ],
   "result": {
     "count": 9,
-    "item": "better_than_vanilla:ruby"
+    "item": "betterthanvanilla:ruby"
   }
 }

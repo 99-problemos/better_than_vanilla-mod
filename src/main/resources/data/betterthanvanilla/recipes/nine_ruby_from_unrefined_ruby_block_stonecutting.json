@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "better_than_vanilla:unrefined_ruby_block"
-  },
-  "result": "better_than_vanilla:ruby_block"
-}

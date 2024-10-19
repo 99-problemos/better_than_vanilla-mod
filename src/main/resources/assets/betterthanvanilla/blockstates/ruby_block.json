@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "betterthanvanilla:block/ruby_block"
+    }
+  }
+}

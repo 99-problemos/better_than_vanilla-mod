@@ -15,16 +15,16 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net._99problemos.Better_than_vanilla"
+			"net._99problemos.Betterthanvanilla"
 		],		"client": [
-			"net._99problemos.Better_than_vanillaClient"
+			"net._99problemos.BetterthanvanillaClient"
 		],
 		"fabric-datagen": [
-			"net._99problemos.Better_than_vanillaDataGenerator"
+			"net._99problemos.BetterthanvanillaDataGenerator"
 		]
 	},
 	"mixins": [
-		"better_than_vanilla.mixins.json"
+		"betterthanvanilla.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.16.7",

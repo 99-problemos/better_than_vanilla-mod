@@ -2,7 +2,7 @@
   "type": "minecraft:stonecutting",
   "count": 1,
   "ingredient": {
-    "item": "better_than_vanilla:unrefined_ruby"
+    "item": "betterthanvanilla:unrefined_ruby"
   },
-  "result": "better_than_vanilla:ruby"
+  "result": "betterthanvanilla:ruby"
 }

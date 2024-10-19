@@ -18,12 +18,12 @@ public class ModItems {
     }
 
     private static Item registerItem(String name, Item item) {
-        return Registry.register(Registries.ITEM, new Identifier(Better_than_vanilla.MOD_ID, name), item);
+        return Registry.register(Registries.ITEM, new Identifier(Betterthanvanilla.MOD_ID, name), item);
     }
 
     public static void registerModItems() {
-        Better_than_vanilla.LOGGER.info("Registering Mod Items for " + Better_than_vanilla.MOD_ID);
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientItemGroup);
+        Betterthanvanilla.LOGGER.info("Registering Mod Items for " + Betterthanvanilla.MOD_ID);
+
     }
 }
