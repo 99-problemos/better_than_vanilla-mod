@@ -1,5 +1,7 @@
 package net._99problemos;
 
+import net._99problemos.ModItems.ModItemGroups;
+import net._99problemos.ModItems.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -13,6 +15,12 @@ public class Better_than_vanilla implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		
+
+		/* Calls this function to register mod item groups in the onInit */
+		ModItemGroups.registerItemGroups();
+
+        /* Calls this function to register mod items in the onInit */
+		ModItems.registerModItems();
+
 	}
 }
