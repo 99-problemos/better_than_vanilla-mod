@@ -12,6 +12,11 @@
 
   "block.betterthanvanilla.sound_block": "Sound Block",
 
+  "item.betterthanvanilla.tomato": "Tomato",
+  "item.betterthanvanilla.golden_berries": "Golden Berries",
+
+  "item.betterthanvanilla.nether_coal": "Nether Coal",
+
   "itemgroup.betterthanvanilla": "Better Than Vanilla"
 
 }

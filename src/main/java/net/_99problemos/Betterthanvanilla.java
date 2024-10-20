@@ -1,6 +1,7 @@
 package net._99problemos;
 
 import net.fabricmc.api.ModInitializer;
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -14,5 +15,7 @@ public class Betterthanvanilla implements ModInitializer {
 
 		ModItems.registerModItems();
 		net._99problemos.ModBlocks.registerModBlocks();
+
+		FuelRegistry.INSTANCE.add(ModItems.NETHER_COAL, 30000);
 	}
 }

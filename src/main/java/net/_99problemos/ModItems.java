@@ -9,10 +9,15 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
+import static net._99problemos.ModFoodComponents.GOLDEN_BERRIES;
+
 public class ModItems {
     public static final Item RUBY = registerItem("ruby", new Item(new FabricItemSettings()));
     public static final Item UNREFINED_RUBY = registerItem("unrefined_ruby", new Item(new FabricItemSettings()));
     public static final Item ORE_PROSPECTING_PICK = registerItem("ore_prospecting_pick", new OreProspectingPick(new FabricItemSettings().maxDamage(4096)));
+    public static final Item TOMATO = registerItem("tomato", new Item(new FabricItemSettings().food(ModFoodComponents.TOMATO)));
+    public static final Item GOLDEN_BERRIES = registerItem("golden_berries", new Item(new FabricItemSettings().food(ModFoodComponents.GOLDEN_BERRIES)));
+    public static final Item NETHER_COAL = registerItem("nether_coal", new Item(new FabricItemSettings()));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(RUBY);

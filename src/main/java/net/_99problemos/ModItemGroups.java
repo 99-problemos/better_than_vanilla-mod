@@ -32,6 +32,11 @@ public class ModItemGroups {
 
                         entries.add(ModBlocks.SOUND_BLOCK);
 
+                        entries.add(ModItems.TOMATO);
+                        entries.add(ModItems.GOLDEN_BERRIES);
+
+                        entries.add(ModItems.NETHER_COAL);
+
                     }).build());
 
 
