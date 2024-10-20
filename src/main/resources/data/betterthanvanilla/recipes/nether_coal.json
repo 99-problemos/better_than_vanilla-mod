@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "ABC",
+    "#&@",
+    "XYZ"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:glowstone"
+    },
+    "B": {
+      "item": "minecraft:netherrack"
+    },
+    "C": {
+      "item": "minecraft:magma_block"
+    },
+    "#": {
+      "item": "minecraft:coal"
+    },
+    "&": {
+      "item": "minecraft:lava_bucket"
+    },
+    "@": {
+      "item": "minecraft:blaze_rod"
+    },
+    "X": {
+      "item": "minecraft:coal_block"
+    },
+    "Y": {
+      "item": "minecraft:redstone_block"
+    },
+    "Z": {
+      "item": "minecraft:fire_charge"
+    }
+  },
+  "result": {
+    "item": "betterthanvanilla:nether_coal"
+  }
+}

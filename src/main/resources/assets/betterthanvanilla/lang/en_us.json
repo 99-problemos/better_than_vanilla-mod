@@ -17,6 +17,10 @@
 
   "item.betterthanvanilla.nether_coal": "Nether Coal",
 
-  "itemgroup.betterthanvanilla": "Better Than Vanilla"
+  "itemgroup.betterthanvanilla": "Better Than Vanilla",
+
+  "tooltip.betterthanvanilla.ore_prospecting_pick.tooltip": "Finds Ores Under Your Feet",
+
+  "tooltip.betterthanvanilla.sound_block.tooltip": "Makes a sound when right clicked"
 
 }

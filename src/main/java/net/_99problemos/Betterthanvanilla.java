@@ -16,6 +16,6 @@ public class Betterthanvanilla implements ModInitializer {
 		ModItems.registerModItems();
 		net._99problemos.ModBlocks.registerModBlocks();
 
-		FuelRegistry.INSTANCE.add(ModItems.NETHER_COAL, 30000);
+		FuelRegistry.INSTANCE.add(ModItems.NETHER_COAL, 40000);
 	}
 }
