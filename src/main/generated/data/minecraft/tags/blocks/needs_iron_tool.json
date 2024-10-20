@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "betterthanvanilla:ruby_ore",
+    "betterthanvanilla:ruby_block",
+    "betterthanvanilla:unrefined_ruby_block",
+    "betterthanvanilla:deepslate_ruby_ore"
+  ]
+}

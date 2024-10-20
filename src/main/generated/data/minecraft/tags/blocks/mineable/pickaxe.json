@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "betterthanvanilla:unrefined_ruby_block",
+    "betterthanvanilla:ruby_block",
+    "betterthanvanilla:ruby_ore",
+    "betterthanvanilla:deepslate_ruby_ore",
+    "betterthanvanilla:sound_block"
+  ]
+}

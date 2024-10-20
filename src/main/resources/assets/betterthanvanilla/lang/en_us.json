@@ -1,26 +1,21 @@
 {
   "item.betterthanvanilla.ruby": "Ruby",
-  "item.betterthanvanilla.unrefined_ruby": "Unrefined Ruby",
+  "item.betterthanvanilla.Unrefined_ruby": "Unrefined Ruby",
+  "item.betterthanvanilla.ore_prospecting_pick": "Ore Prospecting Pick",
 
-  "block.betterthanvanilla.ruby_block": "Block Of Ruby",
-  "block.betterthanvanilla.unrefined_ruby_block": "Block Of Unrefined Ruby",
+  "item.betterthanvanilla.tomato": "Tomato",
+  "item.betterthanvanilla.golden_berries": "Golden Berries",
+  "item.betterthanvanilla.nether_coal": "Nether Coal",
+
+  "block.betterthanvanilla.ruby_block": "Block of Ruby",
+  "block.betterthanvanilla.unrefined_ruby_block": "Block of Unrefined Ruby",
 
   "block.betterthanvanilla.ruby_ore": "Ruby Ore",
   "block.betterthanvanilla.deepslate_ruby_ore": "Deepslate Ruby Ore",
 
-  "item.betterthanvanilla.ore_prospecting_pick": "Ore Prospecting Pick",
-
   "block.betterthanvanilla.sound_block": "Sound Block",
 
-  "item.betterthanvanilla.tomato": "Tomato",
-  "item.betterthanvanilla.golden_berries": "Golden Berries",
+  "tooltip.betterthanvanilla.ore_prospecting_pick.tooltip": "Finds valuables underground",
 
-  "item.betterthanvanilla.nether_coal": "Nether Coal",
-
-  "itemgroup.betterthanvanilla": "Better Than Vanilla",
-
-  "tooltip.betterthanvanilla.ore_prospecting_pick.tooltip": "Finds Ores Under Your Feet",
-
-  "tooltip.betterthanvanilla.sound_block.tooltip": "Makes a sound when right clicked"
-
+  "itemgroup.betterthanvanilla": "Better Than Vanilla"
 }

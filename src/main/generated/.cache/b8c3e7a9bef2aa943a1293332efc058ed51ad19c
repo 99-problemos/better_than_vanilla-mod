@@ -1,0 +1,7 @@
+// 1.20.1	2024-10-20T21:24:21.1910177	better_than_vanilla/Tags for minecraft:block
+8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\minecraft\tags\blocks\needs_diamond_tool.json
+8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\fabric\tags\blocks\needs_tool_level_4.json
+984b323f4857abf91ab974fef5decb78b8a220cc data\minecraft\tags\blocks\needs_iron_tool.json
+8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\minecraft\tags\blocks\needs_stone_tool.json
+f72ace44cf0fe26bdb61e669f17ccdfc3f022306 data\betterthanvanilla\tags\blocks\ore_prospecting_pick_prospected_blocks.json
+cdb32479e547118b3072f021f2569685833aedc0 data\minecraft\tags\blocks\mineable\pickaxe.json

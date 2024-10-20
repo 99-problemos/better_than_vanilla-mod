@@ -1,5 +1,6 @@
 package net._99problemos.custom;
 
+import net._99problemos.util.ModTags;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
@@ -58,18 +59,7 @@ public class OreProspectingPick extends Item {
     }
 
     private boolean isValuableBlock(BlockState state) {
-    return state.isOf(Blocks.COAL_ORE) ||
-            state.isOf(Blocks.COPPER_ORE) ||
-            state.isOf(Blocks.IRON_ORE) ||
-            state.isOf(Blocks.LAPIS_ORE) ||
-            state.isOf(Blocks.EMERALD_ORE) ||
-            state.isOf(Blocks.GOLD_ORE) ||
-            state.isOf(Blocks.REDSTONE_ORE) ||
-            state.isOf(Blocks.EMERALD_ORE) ||
-            state.isOf(Blocks.DIAMOND_ORE) ||
-            state.isOf(Blocks.NETHER_QUARTZ_ORE) ||
-            state.isOf(Blocks.ANCIENT_DEBRIS) ||
-            state.isOf(Blocks.NETHER_GOLD_ORE);
+    return state.isIn(ModTags.Blocks.ORE_PROSPECTING_PICK_PROSPECTED_BLOCKS);
     }
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
         tooltip.add(Text.translatable("tooltip.betterthanvanilla.ore_prospecting_pick.tooltip"));

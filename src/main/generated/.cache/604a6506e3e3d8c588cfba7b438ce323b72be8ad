@@ -1,0 +1,5 @@
+// 1.20.1	2024-10-20T21:24:21.1910177	better_than_vanilla/Block Loot Tables
+5ba047d61ab714ea3db8bed57927d3ce51d94ff5 data\betterthanvanilla\loot_tables\blocks\ruby_block.json
+fd0c87d29ba64acae04f155ca7d1a1a6a7157ba3 data\betterthanvanilla\loot_tables\blocks\ruby_ore.json
+09ec0f93bafe127b240e008a334244104b59a5b3 data\betterthanvanilla\loot_tables\blocks\unrefined_ruby_block.json
+13c08bed6cbb5b807f6effe090f399949d8e1d7b data\betterthanvanilla\loot_tables\blocks\deepslate_ruby_ore.json
