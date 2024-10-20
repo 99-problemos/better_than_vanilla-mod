@@ -23,12 +23,14 @@ public class ModItemGroups {
                         entries.add(Items.DIAMOND);
 
                         entries.add(ModBlocks.RUBY_BLOCK);
-                        entries.add(ModBlocks.RAW_RUBY_BLOCK);
+                        entries.add(ModBlocks.UNREFINED_RUBY_BLOCK);
 
                         entries.add(ModBlocks.RUBY_ORE);
                         entries.add(ModBlocks.DEEPSLATE_RUBY_ORE);
 
                         entries.add(ModItems.ORE_PROSPECTING_PICK);
+
+                        entries.add(ModBlocks.SOUND_BLOCK);
 
                     }).build());
 

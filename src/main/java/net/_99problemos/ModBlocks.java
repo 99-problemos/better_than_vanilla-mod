@@ -1,5 +1,6 @@
 package net._99problemos;
 
+import net._99problemos.custom.SoundBlock;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.block.*;
 import net.minecraft.block.Block;
@@ -14,10 +15,21 @@ import net.minecraft.util.math.intprovider.UniformIntProvider;
 
 public class ModBlocks {
     public static final Block RUBY_BLOCK;
-    public static final Block RAW_RUBY_BLOCK;
+    public static final Block UNREFINED_RUBY_BLOCK;
     public static final Block RUBY_ORE;
+    public static final Block SOUND_BLOCK;
 
     static {
+        SOUND_BLOCK = registerBlock("sound_block",
+                new SoundBlock(AbstractBlock.Settings.create()
+                        .mapColor(MapColor.WHITE)
+                        .instrument(Instrument.DIDGERIDOO)
+                        .requiresTool()
+                        .strength(1.0f,1.0f)
+                        .sounds(BlockSoundGroup.AMETHYST_BLOCK)
+                )
+        );
+
         RUBY_ORE = registerBlock("ruby_ore",
                 new ExperienceDroppingBlock(
                         AbstractBlock.Settings.create()
@@ -29,7 +41,7 @@ public class ModBlocks {
                         UniformIntProvider.create(3, 7)
                 )
         );
-        RAW_RUBY_BLOCK = registerBlock("unrefined_ruby_block",
+        UNREFINED_RUBY_BLOCK = registerBlock("unrefined_ruby_block",
                 new Block(
                         AbstractBlock.Settings.create()
                                 .mapColor(MapColor.RAW_IRON_PINK)
